@@ -1,3 +1,9 @@
+// How to run the server: 
+/*
+  1. cd into the website-form directory
+  2. enter nodemon server.js in the terminal 
+*/
+
 const { once } = require('events')
 const express = require('express')
 const mongoose = require('mongoose')
